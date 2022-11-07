@@ -1,8 +1,16 @@
 import React from 'react'
 
-const Input = () => {
+const Input = ({value, label, placeholder}) => {
   return (
-    <div>Input</div>
+    <div className="form-group first">
+        <label htmlFor={label}>{value}</label>
+        <input
+        type="text"
+        className="form-control"
+        placeholder={placeholder}
+        id={label}
+        />
+    </div>
   )
 }
 
