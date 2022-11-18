@@ -1,0 +1,16 @@
+{
+    "users": [
+        {"id": 1, "username": "admin","password": "admin"}    
+    ],
+    "todayStats": [
+        {"id": 1, "date":"2022-11-18", "borrowed" : 7, "waiting": 4, "available":40 }
+    ],
+    "pastStats" : [
+        {"id": 1, "totalBorrowedWeek": 120, "statWeek": {}}
+    ],
+    "room": [
+        {"id": 1, "name": "Ruangan BD 1.2", "borrowedWeek": 50, "fullfiled":41, "capacity":50 },
+        {"id": 2, "name": "Lab Programming", "borrowedWeek": 32, "fullfiled":21, "capacity":50},
+        {"id": 1, "name": "Ruangan BD 1.2", "borrowedWeek": 50, "fullfiled":20, "capacity":50 }
+    ]
+}
